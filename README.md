@@ -1,10 +1,10 @@
-# Download and Installation
+## Download and Installation
 
 * Fork, Clone, on github
 * Install packages: yarn
 * To run webpack: yarn run serve
 
-# Technologies used
+## Technologies used
 
 * React
 * SASS
@@ -12,7 +12,7 @@
 * Yarn
 * React Flickity
 
-# Process
+## Process
 
 * I took considerable amount of time to understand the scale the project and work out the best suited tools for the task. This led me to write the code exercise initially on vanilla JavaScript with Flickity plugin.
 
@@ -22,12 +22,15 @@
 
 * My MVP for this exercise was to be able to display a working slider that is fully responsive and be creative with the styling.
 
-
-Mobile
+## Mobile
 
 <img width="361" alt="Screenshot 2019-05-06 at 13 41 09" src="https://user-images.githubusercontent.com/42609274/57225652-ea9f4f80-7004-11e9-9e4b-850ecf4ed721.png">
 
+## Tablet
 
-Tablet
+<img width="442" alt="Screenshot 2019-05-06 at 14 30 30" src="https://user-images.githubusercontent.com/42609274/57228424-b0857c00-700b-11e9-9d78-6dcd06425760.png">
 
-<img width="1279" alt="Screenshot 2019-05-06 at 14 07 23" src="https://user-images.githubusercontent.com/42609274/57227040-559e5580-7008-11e9-9933-85fbcd76e216.png">
+
+## Desktop
+
+<img width="1279" alt="Screenshot 2019-05-06 at 14 33 01" src="https://user-images.githubusercontent.com/42609274/57228524-e165b100-700b-11e9-8903-921a2ec22c0b.png">
