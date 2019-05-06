@@ -1,0 +1,128 @@
+$theme: #FFFFFF
+
+/* ---- carousel styling ---- */
+
+.carousel
+  background: $theme
+  padding-bottom: 2rem
+  .carousel-cell
+    margin-right: 120px
+    margin-top: 80px
+    height: 400px
+    width: 400px
+    overflow: hidden
+    transition: .6s
+    .front-img
+      position: absolute
+      top: 10px
+      left: 10px
+      max-width: 380px
+      max-height: 380px
+      border: 1px solid $theme
+
+
+/* ---- selected image styling ---- */
+
+.carousel-cell.is-selected
+  transition: .6s
+  transform: scale(1.1)
+
+.flickity-enabled:focus
+  outline: none
+
+/*  ---- image text ---- */
+
+figcaption
+  text-align: center
+  position: absolute
+  top: 25%
+  width: 100%
+  color: $theme
+  font-size: 1rem
+  h3
+    padding-bottom: 3rem
+  h5
+    padding-bottom: 5rem
+    text-transform: uppercase
+    font-weight: 100
+    font-size: .9rem
+  a
+    text-decoration: none
+    color: $theme
+    font-weight: 100
+    font-size: .8rem
+
+/* ---- draggable ---- */
+
+.flickity-enabled.is-draggable .flickity-viewport
+  cursor: move
+  cursor: -webkit-grab
+  cursor: grab
+
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down
+  cursor: -webkit-grabbing
+  cursor: grabbing
+
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button
+  top: 47%
+  width: 20px
+  height: 20px
+.previous
+  left: 30%
+.next
+  right: 30%
+
+.flickity-button
+  position: absolute
+  background: transparent !important
+  border: none
+  color: #333
+  &:focus
+    outline: none
+  &:active
+    opacity: 0.6
+  &:disabled
+    opacity: 0.3
+    cursor: auto
+    pointer-events: none
+
+
+.flickity-button-icon
+  fill: #333
+
+/* ---- pages dots ---- */
+
+.flickity-page-dots
+  display: flex
+  justify-content: center
+  padding: 3rem 0
+  .dot
+    display: inline-block
+    width: 10px
+    height: 10px
+    margin: 0 8px
+    background: #333
+    border-radius: 50%
+    opacity: 0.25
+    cursor: pointer
+  .is-selected
+    opacity: 1
+
+
+/* ---- Tablet screen ---- */
+
+
+
+/* ---- Mobile screen ---- */
+
+@media screen and (max-width: 600px)
+
+  .carousel-cell img
+    height: 400px
+
+  .flickity-prev-next-button.previous,   .flickity-prev-next-button.next
+    display: none
