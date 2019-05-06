@@ -16,8 +16,8 @@ const Carousel = () => {
 
       <div className='carousel-cell'>
         <figure>
-          <img src='../assets/5.jpg' className='back-img' />
-          <img src='../assets/5.jpg' className='front-img' />
+          <img src='../assets/5.jpg' alt='beach' className='back-img' />
+          <img src='../assets/5.jpg' alt='beach' className='front-img' />
           <figcaption>
             <h3>Cuba</h3>
             <h5>Bahamas & Caribbean</h5>
@@ -28,8 +28,8 @@ const Carousel = () => {
 
       <div className='carousel-cell'>
         <figure>
-          <img src='../assets/1.png' className='back-img' />
-          <img src='../assets/1.png' className='front-img' />
+          <img src='../assets/1.png' alt='turle' className='back-img' />
+          <img src='../assets/1.png' alt='turle' className='front-img' />
           <figcaption>
             <h3>Cuba</h3>
             <h5>Bahamas & Caribbean</h5>
@@ -40,8 +40,8 @@ const Carousel = () => {
 
       <div className='carousel-cell'>
         <figure>
-          <img src='../assets/8.jpg' className='back-img' />
-          <img src='../assets/8.jpg' className='front-img' />
+          <img src='../assets/8.jpg' alt='island' className='back-img' />
+          <img src='../assets/8.jpg' alt='island' className='front-img' />
           <figcaption>
             <h3>Theha Island</h3>
             <h5>Bahamas & Caribbean</h5>
@@ -52,8 +52,8 @@ const Carousel = () => {
 
       <div className='carousel-cell'>
         <figure>
-          <img src='../assets/9.jpg' className='back-img' />
-          <img src='../assets/9.jpg' className='front-img' />
+          <img src='../assets/9.jpg' alt='pier' className='back-img' />
+          <img src='../assets/9.jpg' alt='pier' className='front-img' />
           <figcaption>
             <h3>Maldives</h3>
             <h5>Bahamas & Caribbean</h5>
@@ -65,8 +65,8 @@ const Carousel = () => {
 
       <div className='carousel-cell'>
         <figure>
-          <img src='../assets/7.jpg' className='back-img' />
-          <img src='../assets/7.jpg' className='front-img' />
+          <img src='../assets/7.jpg' alt='temple' className='back-img' />
+          <img src='../assets/7.jpg' alt='temple' className='front-img' />
           <figcaption>
             <h3>Bali</h3>
             <h5>Bahamas & Caribbean</h5>

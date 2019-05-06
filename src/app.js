@@ -12,7 +12,7 @@ class App extends React.Component {
 
     return (
       <main>
-        <h1> our charter destinations </h1>
+        <h1> Our Charter Destinations </h1>
         <Carousel />
         <a href='#'><button> View all destinations </button></a>
       </main>
