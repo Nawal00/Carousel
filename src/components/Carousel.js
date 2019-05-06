@@ -1,7 +1,6 @@
 import React from 'react'
 import Flickity from 'react-flickity-component'
 
-
 const flickityOptions = {
   initialIndex: 2,
   imagesLoaded: true

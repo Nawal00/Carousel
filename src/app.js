@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './css/carousel.sass'
+import './css/partials/responsive.sass'
+import './css/partials/carousel.sass'
 import './css/style.sass'
 
 import Carousel from './components/Carousel'

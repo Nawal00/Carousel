@@ -1,13 +1,10 @@
-$theme: #FFFFFF
-
 /* ---- carousel styling ---- */
 
 .carousel
-  background: $theme
+  background: #FFFFFF
   padding-bottom: 2rem
   .carousel-cell
-    margin-right: 120px
-    margin-top: 80px
+    margin: 80px 120px 0 0
     height: 400px
     width: 400px
     overflow: hidden
@@ -18,7 +15,7 @@ $theme: #FFFFFF
       left: 10px
       max-width: 380px
       max-height: 380px
-      border: 1px solid $theme
+      border: 1px solid #FFFFFF
 
 
 /* ---- selected image styling ---- */
@@ -37,7 +34,7 @@ figcaption
   position: absolute
   top: 25%
   width: 100%
-  color: $theme
+  color: #FFFFFF
   font-size: 1rem
   h3
     padding-bottom: 3rem
@@ -48,7 +45,7 @@ figcaption
     font-size: .9rem
   a
     text-decoration: none
-    color: $theme
+    color: #FFFFFF
     font-weight: 100
     font-size: .8rem
 
@@ -67,15 +64,6 @@ figcaption
 
 /* ---- previous/next buttons ---- */
 
-.flickity-prev-next-button
-  top: 47%
-  width: 20px
-  height: 20px
-.previous
-  left: 30%
-.next
-  right: 30%
-
 .flickity-button
   position: absolute
   background: transparent !important
@@ -90,6 +78,14 @@ figcaption
     cursor: auto
     pointer-events: none
 
+.flickity-prev-next-button
+  top: 47%
+  width: 20px
+  height: 20px
+.previous
+  left: 30%
+.next
+  right: 30%
 
 .flickity-button-icon
   fill: #333
@@ -111,18 +107,3 @@ figcaption
     cursor: pointer
   .is-selected
     opacity: 1
-
-
-/* ---- Tablet screen ---- */
-
-
-
-/* ---- Mobile screen ---- */
-
-@media screen and (max-width: 600px)
-
-  .carousel-cell img
-    height: 400px
-
-  .flickity-prev-next-button.previous,   .flickity-prev-next-button.next
-    display: none
