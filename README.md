@@ -1,6 +1,6 @@
 ## Download and Installation
 
-* Fork or Clone on github: git@github.com:Nawal00/Carousel.git
+* Fork or Clone: https://Nawal00@bitbucket.org/Nawal00/mof-code-exercise.git
 * Install packages: yarn
 * To run webpack/localhost: yarn run serve
 
@@ -24,7 +24,7 @@
 
 ###### Mobile
 
-<img width="240" alt="Screenshot 2019-05-06 at 21 47 22" src="https://user-images.githubusercontent.com/42609274/57254201-8ef6b580-7048-11e9-9fec-29d25f225564.png">
+![Mobile](images/mobile.png)
 
 
 ###### Tablet
