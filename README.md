@@ -29,9 +29,9 @@
 
 ###### Tablet
 
-<img width="444" alt="Screenshot 2019-05-06 at 21 42 24" src="https://user-images.githubusercontent.com/42609274/57253948-de88b180-7047-11e9-8de3-389f45030434.png">
+![Tablet](images/tablet.png)
 
 
 ###### Desktop
 
-<img width="1279" alt="Screenshot 2019-05-06 at 14 33 01" src="https://user-images.githubusercontent.com/42609274/57228524-e165b100-700b-11e9-8903-921a2ec22c0b.png">
+![Desktop](images/desktop.png)
