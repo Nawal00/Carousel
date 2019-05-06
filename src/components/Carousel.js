@@ -31,7 +31,7 @@ const Carousel = () => {
           <img src='../assets/1.png' className='back-img' />
           <img src='../assets/1.png' className='front-img' />
           <figcaption>
-            <h3>cuba</h3>
+            <h3>Cuba</h3>
             <h5>Bahamas & Caribbean</h5>
             <a href='#'><p>View Itinerary</p></a>
           </figcaption>
