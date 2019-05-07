@@ -10,7 +10,7 @@
 * SASS
 * Webpack
 * Yarn
-* React Flickity
+* React Flickity - plugin
 
 ## Process
 
