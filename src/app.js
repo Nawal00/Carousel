@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
 
 import './css/partials/responsive.sass'
 import './css/partials/carousel.sass'
@@ -11,11 +13,14 @@ class App extends React.Component {
   render() {
 
     return (
-      <main>
-        <h1> Our Charter Destinations </h1>
-        <Carousel />
-        <a href='#'><button> View all destinations </button></a>
-      </main>
+
+      <BrowserRouter>
+        <main>
+          <Switch>
+            <Route path="/" component={Carousel} />
+          </Switch>
+        </main>
+      </BrowserRouter>
     )
   }
 }
