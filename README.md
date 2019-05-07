@@ -1,6 +1,6 @@
 ## Download and Installation
 
-* Fork or Clone: https://Nawal00@bitbucket.org/Nawal00/mof-code-exercise.git
+* Fork or Clone: https://nzeestuff@bitbucket.org/Nawal00/mof-code-exercise.git
 * Install packages: yarn
 * To run webpack/localhost: yarn run serve
 
